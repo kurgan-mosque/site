@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  web:
+    image: node
+    working_dir: /app
+    command: sh -c 'npm i && npx gatsby develop -H 0.0.0.0'
+    volumes:
+      - .:/app
+    ports:
+      - 8000:8000
+
