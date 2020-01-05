@@ -6,24 +6,17 @@
  */
 
 import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import Footer from './footer'
+import Main from './main'
 import './layout.css'
 
 const Layout = ({ children }) => (
   <>
     <Header />
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 1000
-      }}
-    >
-      <main>{children}</main>
-      <Footer />
-    </div>
+    <Main>{children}</Main>
+    <Footer />
   </>
 )
 
