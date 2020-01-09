@@ -6,18 +6,48 @@
  */
 
 import React from 'react'
+import styled from 'styled-components'
 
 import Header from './header'
 import Footer from './footer'
 import Main from './main'
+import Aside from './aside'
 import './layout.css'
 
-const Layout = ({ children }) => (
-  <>
+const Layout = styled(({ children, ...props }) => (
+  <div {...props}>
     <Header />
-    <Main>{children}</Main>
+    <Main>
+      {children}
+      <Aside />
+    </Main>
     <Footer />
-  </>
-)
+  </div>
+))`
+  ${Main} {
+    position: relative;
+    box-sizing: border-box;
+
+    padding-right: 230px;
+    @media (max-width: 800px) {
+      padding-right: 30px;
+    }
+
+    & > aside {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+
+      @media (max-width: 800px) {
+        display: none;
+      }
+    }
+
+    @media (max-width: 1000px) {
+      padding-left: 30px;
+    }
+  }
+`
 
 export default Layout
