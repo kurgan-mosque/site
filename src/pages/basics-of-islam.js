@@ -6,9 +6,10 @@ import image from './basics-of-islam.jpg'
 
 const Image = styled(props => <img src={image} {...props} />)`
   float: left;
-  margin-left: 1em;
+  margin-bottom: 0.5em;
   margin-right: 1em;
-  width: 350px;
+  max-width: 350px;
+  width: 100%;
 `
 
 const BasicsOfIslam = () => (
