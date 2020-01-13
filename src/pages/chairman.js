@@ -36,6 +36,26 @@ const Chairman = ({ data }) => (
       поминальные дуа, имянаречение…) по всей области, иногда выезжая по
       приглашению в соседние приграничные районы Тюменской области и Казахстана.
     </p>
+
+    <p>
+      Тел: <a href="tel:+79129790563">+7 (912)979-05-63</a>
+      <br />
+      <br />
+      <address>
+        Адрес :{' '}
+        <a target="_blank" href="https://yandex.ru/maps/-/CKA4aD1q">
+          Россия, Курганская область, г. Курган, ул. Сибирская, 2/2
+        </a>
+      </address>
+      <br />
+      <iframe
+        src="https://yandex.ru/map-widget/v1/-/CKA4aD1q"
+        width="100%"
+        height="400"
+        frameborder="0"
+        allowfullscreen="true"
+      ></iframe>
+    </p>
   </Layout>
 )
 
