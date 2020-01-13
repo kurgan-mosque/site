@@ -9,7 +9,7 @@ const SalaahForWomen = props => (
       <h2>Как читать намаз - намаз для начинающих женщин (видео)</h2>
       <center>
         <iframe
-          width="500"
+          width="100%"
           height="360"
           src="https://www.youtube.com/embed/OSv2ytdG4U0"
           frameborder="0"
