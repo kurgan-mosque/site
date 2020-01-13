@@ -6,9 +6,10 @@ import image from './quran-and-its-sciences.jpg'
 
 const Image = styled(props => <img src={image} {...props} />)`
   float: left;
-  margin-left: 1em;
+  margin-bottom: 0.5em;
   margin-right: 1em;
-  width: 340px;
+  max-width: 340px;
+  width: 100%;
 `
 
 const QuranAndItsSciences = () => (
