@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import Layout from '../components/layout'
-import Image from '../components/image'
+import Layout from 'layout'
+import Image from 'layout/image'
 import SEO from 'seo'
 
 import salaahTime from 'images/salaah-01-2020.jpg'

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Layout from 'components/layout'
+import Layout from 'layout'
 import image from './basics-of-islam.jpg'
 
 const Image = styled(props => <img src={image} {...props} />)`
