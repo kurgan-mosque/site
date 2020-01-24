@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from 'components/layout'
-import SEO from 'components/seo'
+import SEO from 'seo'
 
 import salaahTime from 'images/salaah-01-2020.jpg'
 
