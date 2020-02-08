@@ -1,4 +1,5 @@
 ---
 title: "Главная"
 ---
-![test](./index/salaah-01-2020.jpg)
+![Намаз](./index/salaah-02-2020.jpg)
+
