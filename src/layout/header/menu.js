@@ -3,8 +3,8 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 const menu = [
-  ['chairman', 'Председатель (Раис) - Зиедали Мизробов'],
   ['', 'Главная'],
+  ['imams', 'Имамы'],
   ['news', 'Новости'],
   ['nikah', 'Никах'],
   ['salaah-for-women', 'Намаз для женщин'],
@@ -20,31 +20,37 @@ const Menu = styled(props => (
     <ul>
       {menu.map(([path, label]) => (
         <li>
-          <Link to={path}>{label}</Link>
+          <Link to={path} activeClassName="active">
+            {label}
+          </Link>
         </li>
       ))}
     </ul>
   </nav>
 ))`
-  background: #314b4a;
-  border-radius: 5px;
+  background-color: rgba(51, 167, 128, 0.9);
 
   ul {
     list-style: none;
-    padding: 0.5em;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1000px;
 
     li {
       display: inline-block;
-      padding: 0.5em 1em;
     }
   }
 
   a {
-    color: #f5f5f5;
+    color: white;
     text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1em;
 
-    :hover {
-      color: #cb6a2d;
+    &:hover,
+    &.active {
+      background-color: rgba(0, 0, 0, 0.1);
     }
   }
 `
