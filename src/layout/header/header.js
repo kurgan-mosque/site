@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import Menu from './menu'
 import Logo from './logo'
+import pattern from './pattern.png'
 
 const Header = styled(props => (
   <header {...props}>
@@ -11,6 +12,10 @@ const Header = styled(props => (
   </header>
 ))`
   margin: 0 auto;
+  background: url(${pattern});
+  padding-bottom: 40px;
+  background-repeat: repeat-x;
+  background-position: bottom;
 
   ${Logo} {
     margin: 0.5em auto;
