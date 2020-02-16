@@ -13,8 +13,17 @@ const Header = styled(props => (
   margin: 0 auto;
 
   ${Logo} {
-    margin: 0 auto;
+    margin: 0.5em auto;
     max-width: 320px;
+    display: block;
+  }
+
+  :before {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: rgba(51, 167, 128, 0.9);
   }
 `
 
