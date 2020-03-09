@@ -1,15 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import mosdum from './mosdum.png'
 import dumrf from './dumrf.png'
-import muslim from './muslim.png'
 
-const links = [
-  [mosdum, 'http://mosdum.ru/'],
-  [muslim, 'http://muslim.ru/'],
-  [dumrf, 'http://dumrf.ru/']
-]
+const links = [[dumrf, 'http://dumrf.ru/']]
 
 const Links = styled(props => (
   <ul {...props}>
