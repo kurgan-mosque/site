@@ -1,13 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Ayat from './ayat'
-
-const Aside = styled(props => (
-  <aside {...props}>
-    <Ayat />
-  </aside>
-))`
+const Aside = styled(props => <aside {...props}></aside>)`
   width: 200px;
 `
 
