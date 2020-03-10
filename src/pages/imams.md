@@ -14,14 +14,17 @@ title: "Имамы"
 
 Тел: [+7 (912)979-05-63](tel:+79129790563)
 
+# <center>Имам мечети - Алишер Расулов</center>
+
 Адрес : [Россия, Курганская область, г. Курган, ул. Сибирская, 2/2](https://yandex.ru/maps/-/CKA4aD1q)
+E-mail: kurganmosque@gmail.com
 
 ## Мы в социальных сетях:
 
-- Facebook.com/kurgan.cathedral.mosque
-- Instagram.com/kurgan_mosque
-- Vk.com/kurgan_mosque
-- Ok.ru/kurgan.mosque
+- https://www.facebook.com/kurgan.cathedral.mosque
+- https://www.instagram.com/kurgan_mosque
+- https://www.vk.com/kurgan_mosque
+- https://www.ok.ru/kurgan.mosque
 - WhatsApp: https://bit.ly/2IyJ1Bs
 
 <iframe
