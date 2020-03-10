@@ -16,6 +16,14 @@ title: "Имамы"
 
 Адрес : [Россия, Курганская область, г. Курган, ул. Сибирская, 2/2](https://yandex.ru/maps/-/CKA4aD1q)
 
+## Мы в социальных сетях:
+
+- Facebook.com/kurgan.cathedral.mosque
+- Instagram.com/kurgan_mosque
+- Vk.com/kurgan_mosque
+- Ok.ru/kurgan.mosque
+- WhatsApp: https://bit.ly/2IyJ1Bs
+
 <iframe
   src="https://yandex.ru/map-widget/v1/-/CKA4aD1q"
   width="100%"
