@@ -17,6 +17,7 @@ title: "Имамы"
 # <center>Имам мечети - Алишер Расулов</center>
 
 Адрес : [Россия, Курганская область, г. Курган, ул. Сибирская, 2/2](https://yandex.ru/maps/-/CKA4aD1q)
+
 E-mail: kurganmosque@gmail.com
 
 ## Мы в социальных сетях:
