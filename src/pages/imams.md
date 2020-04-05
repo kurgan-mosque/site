@@ -41,4 +41,13 @@ E-mail: https://www.kurganmosque@gmail.com
 - https://www.ok.ru/kurgan.mosque
 - WhatsApp: https://bit.ly/2IyJ1Bs
 
+<iframe
+    src="https://yandex.ru/map-widget/v1/-/CKA4aD1q"
+    width="100%"
+    height="400"
+    frameborder="0"
+    allowfullscreen="true"
+></iframe>
+
+
 
