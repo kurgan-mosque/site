@@ -30,7 +30,7 @@ title: "Имамы"
 
 Адрес : [Россия, Курганская область, г. Курган, ул. Сибирская, 2а](https://yandex.ru/maps/-/CKA4aD1q)
 
-E-mail: https://www.kurganmosque@gmail.com
+E-mail: www.kurganmosque@gmail.com
 
 ## Мы в социальных сетях:
 
