@@ -20,7 +20,7 @@ const Menu = styled(props => (
   <nav {...props}>
     <ul>
       {menu.map(([path, label]) => (
-        <li>
+        <li key={path}>
           <Link to={path} activeClassName="active">
             {label}
           </Link>
