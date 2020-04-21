@@ -2,11 +2,11 @@
 title: "Главная"
 ---
 
-![Ramadan2020](./index/Ramadan.jpeg)
+![Ramadan2020](./index/Ramadan.jpg)
 
-![News](./index/Gainudin.jpeg)
+![News](./index/Gainudin.jpg)
 
-
+Обращение Шейха Равиля Гайнутдина смотреть по ссылке: https//kurgan-mosque.ru/news/
 
 ### УСТАНОВКА ТОЧНОЙ ДАТЫ НАЧАЛА И ОКОНЧАНИЯ ПОСТА
 
