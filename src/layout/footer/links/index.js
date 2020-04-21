@@ -13,6 +13,7 @@ const Links = styled(props => (
           href={link}
           style={{ backgroundImage: `url(${image})` }}
           target="_blank"
+          rel="noopener noreferrer"
         />
       </li>
     ))}
