@@ -8,7 +8,7 @@ const links = [[dumrf, 'http://dumrf.ru/']]
 const Links = styled(props => (
   <ul {...props}>
     {links.map(([image, link]) => (
-      <li>
+      <li key={link}>
         <a
           href={link}
           style={{ backgroundImage: `url(${image})` }}
