@@ -7,7 +7,7 @@ const menu = [
   ['imams', 'Имамы'],
   ['news', 'Новости'],
   ['fatwa', 'Фетвы'],
-  [('nikah', 'Никах')],
+  ['nikah', 'Никах'],
   ['salaah-for-women', 'Намаз для женщин'],
   ['basics-of-islam', 'Основы Ислама'],
   ['quran-and-its-sciences', 'Коран и его науки'],
