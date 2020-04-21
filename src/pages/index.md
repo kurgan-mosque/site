@@ -6,7 +6,7 @@ title: "Главная"
 
 ![News](./index/Gainudin.jpg)
 
-Обращение Шейха Равиля Гайнутдина смотреть по ссылке: <a href="https://kurgan-mosque.ru/news">Website</a>
+Обращение Шейха Равиля Гайнутдина смотреть по ссылке: <a href="https://kurgan-mosque.ru/news">News</a>
 
 ### УСТАНОВКА ТОЧНОЙ ДАТЫ НАЧАЛА И ОКОНЧАНИЯ ПОСТА
 
