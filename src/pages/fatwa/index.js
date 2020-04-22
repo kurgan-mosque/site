@@ -1,27 +1,27 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import styled from 'styled-components'
 
 import Layout from 'layout'
 import SEO from 'seo'
+import PostList from 'page/post/list'
+import Header from 'page/header'
 
 const title = 'Фетвы'
 
 const Fatwa = ({ data }) => {
-  const nodes = data?.allMarkdownRemark?.nodes
+  const list = data?.allMarkdownRemark?.nodes.map(
+    ({ frontmatter: { title }, fields: { slug }, excerpt }) => ({
+      title,
+      slug,
+      excerpt
+    })
+  )
   return (
     <Layout>
       <SEO title={title} />
-      <h1>{title}</h1>
-      <ul>
-        {nodes.map(({ frontmatter: { title }, fields: { slug }, excerpt }) => (
-          <li key={slug}>
-            <h2>
-              <a href={slug}>{title}</a>
-            </h2>
-            {excerpt}
-          </li>
-        ))}
-      </ul>
+      <Header>{title}</Header>
+      <PostList list={list} />
     </Layout>
   )
 }
