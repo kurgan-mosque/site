@@ -20,7 +20,7 @@ export const PostList = styled(({ list, ...props }) => (
   li {
     background-color: #e7f2ef;
     padding: .1em 1em;
-    margin: 1em 0;
+    margin: 2em 0;
 
     h2 > a {
         text-decoration: none;
