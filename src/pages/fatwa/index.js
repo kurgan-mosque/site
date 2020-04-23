@@ -1,15 +1,9 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import styled from 'styled-components'
 
-import Layout from 'layout'
-import SEO from 'seo'
-import PostList from 'page/post/list'
-import Header from 'page/header'
+import PageList from 'page/list'
 
-const title = 'Фетвы'
-
-const Fatwa = ({ data }) => {
+const PagesFatwa = ({ data }) => {
   const list = data?.allMarkdownRemark?.nodes.map(
     ({ frontmatter: { title }, fields: { slug }, excerpt }) => ({
       title,
@@ -17,18 +11,12 @@ const Fatwa = ({ data }) => {
       excerpt
     })
   )
-  return (
-    <Layout>
-      <SEO title={title} />
-      <Header>{title}</Header>
-      <PostList list={list} />
-    </Layout>
-  )
+  return <PageList list={list} title="Фетвы" />
 }
 
-Fatwa.displayName = 'Fatwa'
+PagesFatwa.displayName = 'PagesFatwa'
 
-export default Fatwa
+export default PagesFatwa
 
 export const pageQuery = graphql`
   {
