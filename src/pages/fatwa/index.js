@@ -20,7 +20,10 @@ export default PagesFatwa
 
 export const pageQuery = graphql`
   {
-    allMarkdownRemark(filter: { fields: { slug: { regex: "^/fatwa/" } } }) {
+    allMarkdownRemark(
+      filter: { fields: { slug: { regex: "^/fatwa/" } } }
+      sort: { fields: fields___slug, order: DESC }
+    ) {
       nodes {
         frontmatter {
           title
