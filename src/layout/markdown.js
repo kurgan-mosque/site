@@ -6,12 +6,18 @@ import SEO from 'seo'
 
 const Markdown = ({
   data: {
-    markdownRemark: { frontmatter, html }
+    markdownRemark: {
+      frontmatter: { title },
+      html
+    }
   }
 }) => (
   <Layout>
-    <SEO title={frontmatter.title} />
-    <article dangerouslySetInnerHTML={{ __html: html }} />
+    <SEO title={title} />
+    <article>
+      <h1>{title}</h1>
+      <div dangerouslySetInnerHTML={{ __html: html }} />
+    </article>
   </Layout>
 )
 
