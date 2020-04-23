@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{C4PE:function(t,e,a){"use strict";a.r(e),a.d(e,"pageQuery",(function(){return u}));var n=a("q1tI"),r=a.n(n),i=a("TEpc"),l=function(t){var e,a=t.data,n=null==a?void 0:null===(e=a.allMarkdownRemark)||void 0===e?void 0:e.nodes.map((function(t){return{title:t.frontmatter.title,slug:t.fields.slug,excerpt:t.excerpt}}));return r.a.createElement(i.a,{list:n,title:"Фетвы"})};l.displayName="PagesFatwa",e.default=l;var u="3491061947"}}]);
+//# sourceMappingURL=component---src-pages-fatwa-index-js-151f14ebd6379b6f726d.js.map

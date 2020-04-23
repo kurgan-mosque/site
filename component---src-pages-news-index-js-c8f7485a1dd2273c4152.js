@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{Oz8r:function(e,t,n){"use strict";n.r(t),n.d(t,"pageQuery",(function(){return u}));var a=n("q1tI"),r=n.n(a),i=n("TEpc"),l=function(e){var t,n=e.data,a=null==n?void 0:null===(t=n.allMarkdownRemark)||void 0===t?void 0:t.nodes.map((function(e){return{title:e.frontmatter.title,slug:e.fields.slug,excerpt:e.excerpt}}));return r.a.createElement(i.a,{list:a,title:"Новости"})};l.displayName="PagesNews",t.default=l;var u="2392796221"}}]);
+//# sourceMappingURL=component---src-pages-news-index-js-c8f7485a1dd2273c4152.js.map
