@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from 'layout'
-import SEO from 'seo'
+import SEO from 'page/seo'
 
 import PostList from './post/list'
 import Header from './header'
