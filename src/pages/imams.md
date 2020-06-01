@@ -26,7 +26,7 @@ title: "Имамы"
 
 ## Контакты:
 
-Тел: [+7 (912)979-05-63](tel:+79129790563) Зиедали Курбонович
+Тел: [+7 (912)979-05-63](tel:+79129790563) Зиёдали Курбонович
 
 Адрес : [Россия, Курганская область, г. Курган, ул. Сибирская, 2а](https://yandex.ru/maps/-/CKA4aD1q)
 
@@ -38,7 +38,7 @@ E-mail: www.kurganmosque@gmail.com
 - https://www.instagram.com/kurgan_mosque
 - https://www.vk.com/kurgan_mosque
 - https://www.ok.ru/kurgan.mosque
-- WhatsApp: https://bit.ly/2IyJ1Bs
+
 
 
 
