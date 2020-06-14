@@ -29,10 +29,3 @@ ________________________________________________________________________________
 Адрес : [Россия, Курганская область, г. Курган, ул. Сибирская, 2а](https://yandex.ru/maps/-/CKA4aD1q)
 
 E-mail: kurganmosque@gmail.com
-
-## Мы в социальных сетях:
-
-- https://www.facebook.com/kurgan.cathedral.mosque
-- https://www.instagram.com/kurgan_mosque
-- https://www.vk.com/kurgan_mosque
-- https://www.ok.ru/kurgan.mosque
