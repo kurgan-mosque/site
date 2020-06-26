@@ -32,16 +32,6 @@ title: "Имамы"
 
 E-mail: kurganmosque@gmail.com
 
-## Мы в социальных сетях:
-
-- https://www.facebook.com/kurgan.cathedral.mosque
-- https://www.instagram.com/kurgan_mosque
-- https://www.vk.com/kurgan_mosque
-- https://www.ok.ru/kurgan.mosque
-
-
-
-
 ### РЕКВИЗИТЫ:
 
 ### Курганская городская религиозная организация мусульман
