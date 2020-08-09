@@ -3,6 +3,7 @@ version: '3'
 services:
   web:
     image: node
+    restart: always
     working_dir: /app
     command: sh -c 'npm i && npx gatsby develop -H 0.0.0.0'
     volumes:
