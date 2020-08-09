@@ -5,7 +5,7 @@ import Menu from './menu'
 import Logo from './logo'
 import pattern from './pattern.png'
 
-const Header = styled(props => (
+const Header = styled((props) => (
   <header {...props}>
     <Logo />
     <Menu />

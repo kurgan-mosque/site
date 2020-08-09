@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Sign = styled(props => (
+const Sign = styled((props) => (
   <p {...props}>
     <em>
       С уважением и добрыми молитвами,

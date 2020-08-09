@@ -4,7 +4,7 @@ import { MdMail, MdMap } from 'react-icons/md'
 
 import Link from './link'
 
-const Contacts = styled(props => (
+const Contacts = styled((props) => (
   <ul {...props}>
     <li>
       <MdMap />

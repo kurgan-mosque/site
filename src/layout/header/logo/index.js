@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 
 import logo from './logo.png'
 
-const Logo = styled(props => (
+const Logo = styled((props) => (
   <Link to="/" {...props}>
     <img src={logo} alt="mosque" />
   </Link>

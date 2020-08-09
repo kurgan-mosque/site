@@ -8,9 +8,9 @@ const Markdown = ({
   data: {
     markdownRemark: {
       frontmatter: { title },
-      html
-    }
-  }
+      html,
+    },
+  },
 }) => (
   <Layout>
     <SEO title={title} />

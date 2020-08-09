@@ -13,10 +13,10 @@ const menu = [
   ['quran-and-its-sciences', 'Коран и его науки'],
   ['allowed-and-forbidden-in-islam', 'Дозволенное и запретное в Исламе'],
   ['dua', 'Дуа - оружие мусульманина'],
-  ['paradise', 'Достоверно о Рае']
+  ['paradise', 'Достоверно о Рае'],
 ]
 
-const Menu = styled(props => (
+const Menu = styled((props) => (
   <nav {...props}>
     <ul>
       {menu.map(([path, label]) => (

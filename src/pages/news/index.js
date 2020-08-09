@@ -8,7 +8,7 @@ const PagesNews = ({ data }) => {
     ({ frontmatter: { title }, fields: { slug }, excerpt }) => ({
       title,
       slug,
-      excerpt
+      excerpt,
     })
   )
   return <PageList list={list} title="Новости" />

@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const dateTimeFormat = new Intl.DateTimeFormat('ru-RU', {
   year: 'numeric',
   month: 'long',
-  day: 'numeric'
+  day: 'numeric',
 })
 
 const Time = styled(({ datetime, ...props }) => (

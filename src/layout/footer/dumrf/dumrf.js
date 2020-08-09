@@ -5,7 +5,7 @@ import dumrf from './dumrf.png'
 
 const title = 'Духовное управление мусульман Российской Федерации'
 
-const DumRF = styled(props => (
+const DumRF = styled((props) => (
   <a
     href="http://dumrf.ru/"
     target="_blank"

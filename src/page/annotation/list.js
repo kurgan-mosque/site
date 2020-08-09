@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import Annotation from './component'
 
-const slug2date = slug => {
+const slug2date = (slug) => {
   const milliseconds = Date.parse(slug.split('/')[2].substring(0, 10))
   if (!isNaN(milliseconds)) return new Date(milliseconds)
 }

@@ -6,7 +6,7 @@ import Social from './social'
 import DumRF from './dumrf'
 import Contacts from './contacts'
 
-const Footer = styled(props => (
+const Footer = styled((props) => (
   <footer {...props}>
     <Social />
     <Contacts />
