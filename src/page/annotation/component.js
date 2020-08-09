@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'gatsby'
 
 const dateTimeFormat = new Intl.DateTimeFormat('ru-RU', {
   year: 'numeric',
@@ -24,7 +25,7 @@ const Annotation = styled(({ slug, title, excerpt, date, ...props }) => (
   <article {...props}>
     {date && <Time datetime={date} />}
     <h2>
-      <a href={slug}>{title}</a>
+      <Link to={slug}>{title}</Link>
     </h2>
     <p>{excerpt}</p>
   </article>
