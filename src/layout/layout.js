@@ -12,6 +12,7 @@ import Header from './header'
 import Footer from './footer'
 import Main from './main'
 import Aside from './aside'
+import Background from '../page/background'
 import './layout.css'
 
 const Layout = styled(({ children, ...props }) => (
@@ -21,6 +22,7 @@ const Layout = styled(({ children, ...props }) => (
       {children}
       <Aside />
     </Main>
+    <Background />
     <Footer />
   </div>
 ))`
