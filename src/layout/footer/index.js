@@ -8,37 +8,42 @@ import Contacts from './contacts'
 
 const Footer = styled((props) => (
   <footer {...props}>
-    <Social />
-    <Contacts />
-    <DumRF />
-    <Copyright />
+    <div>
+      <Social />
+      <Contacts />
+      <DumRF />
+      <Copyright />
+    </div>
   </footer>
 ))`
-  max-width: 1000px;
-  margin: 0 auto;
   font-size: 14px;
-  padding: 0 1.5em 0.75em;
-  margin-top: 1.5em;
   background: #efefef;
   color: #666666;
   border-top: 1px solid #dbdbdb;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  position: relative;
 
-  &:before {
-    content: '';
-    display: block;
-    height: 100%;
-    width: calc(100vw - 15px);
-    bottom: 0;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    border-top: 1px solid #dbdbdb;
-    background: #efefef;
-    z-index: -1;
+  > div {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 1.2em 0.75em;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+
+    @media (max-width: 640px) {
+      flex-wrap: wrap;
+
+      > * {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+      }
+
+      ${Copyright} {
+        position: initial;
+      }
+    }
   }
 
   ${Contacts} {
@@ -61,22 +66,6 @@ const Footer = styled((props) => (
     bottom: 0.5em;
     max-width: 100%;
   }
-
-  @media (max-width: 640px) {
-    flex-wrap: wrap;
-
-    > * {
-      width: 100%;
-      text-align: center;
-      justify-content: center;
-    }
-
-    ${Copyright} {
-      position: initial;
-    }
-  }
 `
-
-Footer.displayName = 'Footer'
 
 export default Footer

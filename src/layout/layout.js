@@ -24,7 +24,11 @@ const Layout = styled(({ children, ...props }) => (
     <Footer />
   </div>
 ))`
+  position: relative;
+  min-height: 100vh;
+
   ${Main} {
+    padding-bottom: 10em;
     position: relative;
     box-sizing: border-box;
 
@@ -46,6 +50,23 @@ const Layout = styled(({ children, ...props }) => (
 
     @media (max-width: 1000px) {
       padding-left: 30px;
+    }
+  }
+
+  ${Footer} {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 640px) {
+    ${Footer} {
+      position: initial;
+    }
+
+    ${Main} {
+      padding-bottom: initial;
     }
   }
 `
