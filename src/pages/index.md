@@ -43,6 +43,8 @@ title: 'Главная'
 
 ![Москва2020-3](./index/Courses3.jpeg)
 
+![Москва2020-4](./index/Courses4.jpg)
+
 Пресс-служба ДУМ РФ
 http://dumrf.ru/common/event/17738
 
