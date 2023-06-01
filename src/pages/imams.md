@@ -36,7 +36,9 @@ title: 'Имамы'
 
 E-mail: [kurganmosque@gmail.com](mailto:kurganmosque@gmail.com)
 
-Адрес : [Россия, Курганская область, г. Курган, ул. Сибирская, 2а](https://yandex.ru/maps/-/CKA4aD1q)
+Адрес : [Россия, Курганская область, г. Курган, ул. Сибирская, 2а]
+
+Время работы: 09:00 - 18:00
 
 <iframe
     src="https://yandex.ru/map-widget/v1/-/CKA4aD1q"
