@@ -40,10 +40,3 @@ E-mail: [kurganmosque@gmail.com](mailto:kurganmosque@gmail.com)
 
 Время работы: 09:00 - 18:00
 
-<iframe
-    src="https://yandex.ru/map-widget/v1/-/CKA4aD1q"
-    width="100%"
-    height="400"
-    frameborder="0"
-    allowfullscreen="true"
-></iframe>
