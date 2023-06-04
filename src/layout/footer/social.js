@@ -9,13 +9,7 @@ import {
 } from 'react-icons/fa'
 
 const LINKS = [
-  [
-    'https://www.facebook.com/kurgan.cathedral.mosque',
-    FaFacebookSquare,
-    '#3b5998',
-  ],
-  ['https://www.instagram.com/kurgan_mosque', FaInstagramSquare, '#e1306c'],
-  ['https://www.vk.com/kurgan_mosque', FaVk, '#4872a3'],
+  ['https://vk.com/club219205241', FaVk, '#4872a3'],
   ['https://www.ok.ru/kurgan.mosque', FaOdnoklassnikiSquare, '#ee8208'],
 ]
 
