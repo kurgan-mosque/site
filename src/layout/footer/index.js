@@ -11,7 +11,6 @@ const Footer = styled((props) => (
     <div>
       <Social />
       <Contacts />
-      <DumRF />
       <Copyright />
     </div>
   </footer>
